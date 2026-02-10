@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build outputs
+.next
+out
+build
+dist
+.vercel
+
+# Generated files
+next-env.d.ts
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env*.local
+
+# Public assets (usually don't need formatting)
+public
+
+# Config files that might have specific formatting
+*.config.js
+*.config.mjs
+*.config.ts
