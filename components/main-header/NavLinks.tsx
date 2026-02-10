@@ -27,7 +27,7 @@ export default function NavLinks({ links }: NavLinksProps) {
                         const isActive = pathname === link.href
 
                         return (
-                            <li>
+                            <li key={link.name}>
                                 <Link
                                     key={link.name}
                                     href={link.href}
