@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/assets/logo.png';
 import { MainHeaderBackground } from './main-header-background';
-import NavLinks from './nav-link';
+import NavLinks from './NavLinks';
 
 const navigationLinks = [
   { name: 'Foodies Community', href: '/community' },
