@@ -7,7 +7,7 @@ import NavLinks from './NavLinks';
 const navigationLinks = [
   { name: 'Foodies Community', href: '/community' },
   { name: 'Browse Meals', href: '/meals' },
-]
+];
 
 export default function MainHeader() {
   return (
